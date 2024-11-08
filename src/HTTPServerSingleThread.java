@@ -11,7 +11,7 @@ public class HTTPServerSingleThread {
 
     public static void main(String[] args) throws IOException {
         if (args.length < 2) {
-            System.out.println("Usage: java HTTPServerSingleThread <port> <document_root>");
+            System.out.println("java HTTPServerSingleThread <port> <document_root>");
             return;
         }
 
@@ -101,7 +101,6 @@ public class HTTPServerSingleThread {
         if ("/".equals(filePath)) {
             filePath = "/index.html";
         }
-        // Verwende das dynamische documentRoot-Verzeichnis
         System.out.println("absoluter Pfad: " + documentRoot.resolve(filePath.substring(1)).normalize() +"\n");
         // 'substring(1)' entfernt das führende "/" vom Dateipfad
         // 'normalize()' stellt sicher, dass der Pfad keine doppelten oder unnötigen Segmente enthält.
