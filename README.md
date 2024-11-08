@@ -8,6 +8,7 @@ Hinweise:
 ▪	Die Beschreibung (http://www.w3.org/Protocols/HTTP/AsImplemented.html) geht davon aus, dass nur Text zurückgeliefert wird. Die aktuellen Browser unterstützen aber auch, dass binäre Daten wie z.B. Bilder ausgeliefert werden. 
 Im Moodle-Kurs befinden sich ein paar Testdaten (documentRoot.zip), mit denen Sie Ihren Server mit einem Browser Ihrer Wahl testen können. 
 
+   Verwendete Quellen:
 
 	https://stackoverflow.com/questions/2443098/java-sockets-can-i-write-a-tcp-server-with-one-thread 
 	https://stackoverflow.com/questions/31162754/was-http-request-received-over-tcp-or-udp
@@ -34,7 +35,9 @@ Logging soll zentral durch einen eigenen Thread realisiert werden, der in Abstä
 Beispiel-Ausgabe: 
 2021-09-26 15:40:10 GET /index.html 127.0.0.1 44239 
 2021-09-26 15:40:10 GET /images/logo.gif 127.0.0.1 44240 
-2021-09-26 15:40:10 GET /images/TechnikErleben.png 127.0.0.1 44241 
+2021-09-26 15:40:10 GET /images/TechnikErleben.png 127.0.0.1 44241
+
+   Verwendete Quellen:
 	https://www.geeksforgeeks.org/multithreaded-servers-in-java/ 
 	 https://stackoverflow.com/questions/14729475/can-i-make-a-java-httpserver-threaded-process-requests-in-parallel
 	https://www.tutorialspoint.com/javaexamples/net_multisoc.htm 
